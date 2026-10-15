@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced Trucker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app" class="hidden">
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand"><div class="brand-icon">✦</div><div><b>HAUL<span>R</span></b><small>LOGISTICS NETWORK</small></div></div>
+      <div class="side-label">DRIVER CONSOLE</div>
+      <button class="nav active" data-page="dashboard"><span>▦</span> Dashboard</button>
+      <button class="nav" data-page="leaderboard"><span>♛</span> Leaderboard</button>
+      <button class="nav" data-page="quick"><span>↗</span> Quick Job</button>
+      <button class="nav" data-page="free"><span>▤</span> Saraku Vandi <small>FREE HAUL</small></button>
+      <div class="side-label">FLEET MANAGEMENT</div>
+      <button class="nav" data-page="showroom"><span>▣</span> Truck Showroom</button>
+      <button class="nav" data-page="owned"><span>◈</span> Own Truck</button>
+      <button class="nav" data-page="service"><span>⚙</span> Service Centre</button>
+      <div class="sidebar-bottom"><div class="online-dot"></div> DISPATCH NETWORK <b>ONLINE</b></div>
+    </aside>
+    <main class="main">
+      <header><div><div class="eyebrow">DRIVER MANAGEMENT SYSTEM <span> / </span> LOS SANTOS</div><h1 id="page-title">Dashboard <span>Overview</span></h1></div><button id="close" class="close">✕ <span>Close</span></button></header>
+      <div id="content"></div>
+      <footer><span>HAULR LOGISTICS</span><span>DRIVE SAFE. DELIVER ON TIME.</span><span>V 1.0.0</span></footer>
+    </main>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
